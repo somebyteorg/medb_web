@@ -74,16 +74,16 @@
       },
       {
         key: 'is_subscribe',
-        title: '已集邮',
+        title: '已拥有',
         width: 110,
         filter: (value, row) => value == row.is_subscribe,
         filterOptions: [
           {
-            label: '已集',
+            label: '已有',
             value: 1,
           },
           {
-            label: '未集',
+            label: '未有',
             value: 0,
           },
         ],
