@@ -20,6 +20,8 @@
 
 ## 通过接口更新媒体数量信息
 
+> 也可以提供贵服的账号密码 系统将通过指定的ip定时采集 `/emby/Items/Counts` 接口
+
 ```bash
 curl --location 'https://medb.lat/media/statistics/save' \
 --form 'media_list_id="[media_list_id]"' \
