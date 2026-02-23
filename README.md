@@ -2,6 +2,12 @@
 
 媒体库统计工具
 
+# 媒体库图标
+
+> 目前已兼容 `emby`
+
+- `https://medb.lat/media/icon/library`
+
 # api
 
 文档地址 https://www.postman.com/somebyteorg/medb
