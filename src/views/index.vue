@@ -31,7 +31,7 @@
             <n-button text tag="a" href="https://vps.town?ref=medb" target="_blank" type="primary"> VPS.Town </n-button>
             提供赞助,
           </p>
-          <n-button style="margin-left: 4px" text href="https://github.com/somebyteorg/medb_web" type="primary"> API 文档</n-button>
+          <n-button style="margin-left: 4px" text tag="a" href="https://github.com/somebyteorg/medb_web" target="_blank" type="primary"> API 文档</n-button>
         </div>
       </template>
     </n-card>
