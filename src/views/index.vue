@@ -24,6 +24,12 @@
 
       <media_list />
 
+      <template #footer>
+        如有侵犯您的权益，请发送
+        <n-button text tag="a" href="mailto:contact@medb.lat" target="_blank">邮件</n-button>
+        告知，我们将在核实后及时删除相关内容。
+      </template>
+
       <template #action>
         <div class="action">
           <p>
