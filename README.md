@@ -34,8 +34,8 @@ curl --location 'https://medb.lat/media/statistics/save' \
 - `media_list_id` `媒体id` 在 `媒体 > 列表 > 媒体列表` `/media/list/index` 接口中获得
 - `token` `媒体token` 在 `媒体 > 列表 > 媒体列表` `/media/list/index` 接口中获得
 - `count_movie` 电影总数
-- `count_series` 电视总季数
-- `count_episode` 电视总集数
+- `count_series` 电视剧总数
+- `count_episode` 电视集总数
 
 # 赞助商
 

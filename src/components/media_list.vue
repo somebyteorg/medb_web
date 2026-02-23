@@ -143,7 +143,7 @@
       },
       {
         key: 'series',
-        title: '总季数',
+        title: '总剧数',
         sorter: 'default',
         width: 100,
       },
