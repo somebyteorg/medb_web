@@ -140,18 +140,51 @@
         title: '电影数',
         sorter: 'default',
         width: 100,
+        render: (row) =>
+          row.movie_user ? (
+            <n-tooltip trigger="hover">
+              {{
+                trigger: () => row.movie,
+                default: () => `不含多版本: ${row.movie_user}`,
+              }}
+            </n-tooltip>
+          ) : (
+            row.movie
+          ),
       },
       {
         key: 'series',
-        title: '总剧数',
+        title: '剧数量',
         sorter: 'default',
         width: 100,
+        render: (row) =>
+          row.series_user ? (
+            <n-tooltip trigger="hover">
+              {{
+                trigger: () => row.series,
+                default: () => `不含多版本: ${row.series_user}`,
+              }}
+            </n-tooltip>
+          ) : (
+            row.series
+          ),
       },
       {
         key: 'episode',
-        title: '总集数',
+        title: '集数量',
         sorter: 'default',
         width: 100,
+        render: (row) =>
+          row.episode_user ? (
+            <n-tooltip trigger="hover">
+              {{
+                trigger: () => row.episode,
+                default: () => `不含多版本: ${row.episode_user}`,
+              }}
+            </n-tooltip>
+          ) : (
+            row.episode
+          ),
       },
     ],
     data = ref([]),
